@@ -4,10 +4,10 @@
 
 .about-element {
   width: 270px;
-}
 
-.about-element:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-img-containers {

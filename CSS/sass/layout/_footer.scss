@@ -3,11 +3,6 @@
   background-color: var(--background-dark-color);
 }
 
-.footer .container {
-  display: flex;
-  align-items: baseline;
-}
-
 .internal-links {
   margin-right: 70px;
 }
@@ -45,8 +40,10 @@
   }
 }
 
-.footer-contacts-list-item:not(:last-child) {
-  margin-bottom: 9px;
+.footer-contacts-list-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .join-us-links-list {

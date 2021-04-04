@@ -3,10 +3,10 @@
   visibility: hidden;
   pointer-events: none;
   transition: 250ms;
-}
 
-.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.5);
+  & .modal {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
 }
 
 .modal {
@@ -37,9 +37,9 @@
   top: 8px;
   right: 8px;
   transition: fill 250ms var(--time-function);
-}
 
-.close_modal-btn_button:focus,
-.close_modal-btn_button:hover {
-  fill: var(--accent-color);
+  &:focus,
+  &:hover {
+    fill: var(--accent-color);
+  }
 }
