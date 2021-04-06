@@ -9,7 +9,7 @@
   --background-dark-color: #2f303a;
   --main-dark-color: #000000;
   --icon-color: #afb1b8;
-  --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+  var(--time-function): cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
 /* p,
@@ -154,7 +154,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-color);
   padding: 32px 0;
-  transition: color 250ms --time-function;
+  transition: color 250ms var(--time-function);
   position: relative;
 }
 
@@ -218,7 +218,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   padding: 32px 0;
-  transition: color 250ms --time-function;
+  transition: color 250ms var(--time-function);
 } */
 
 /* ================END HEADER============= */
@@ -266,7 +266,7 @@ img {
   min-width: 200px;
   padding: 10px 32px;
   margin: 30px auto 0;
-  transition: background-color 250ms --time-function;
+  transition: background-color 250ms var(--time-function);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -412,8 +412,8 @@ img {
   width: 44px;
   height: 44px;
   color: var(--icon-color);
-  transition: background-color 250ms --time-function,
-    color 250ms --time-function;
+  transition: background-color 250ms var(--time-function),
+    color 250ms var(--time-function);
 }
 
 .social-link-icon {
@@ -443,7 +443,7 @@ img {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   color: var(--icon-color);
-  transition: border-color 250ms --time-function, color 250ms --time-function;
+  transition: border-color 250ms var(--time-function), color 250ms var(--time-function);
 }
 
 .client-icon {
@@ -484,7 +484,7 @@ img {
 
 .address {
   color: var(--main-lite-color);
-  transition: color 250ms --time-function;
+  transition: color 250ms var(--time-function);
 }
 
 .footer-contacts {
@@ -493,7 +493,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms --time-function;
+  transition: color 250ms var(--time-function);
 }
 
 .footer-contacts-list-item:not(:last-child) {
@@ -591,8 +591,8 @@ img {
   background-color: var(--background-light-color);
   border-radius: 4px;
   padding: 6px 22px;
-  transition: color 250ms --time-function,
-    background-color 250ms --time-function, box-shadow 250ms --time-function;
+  transition: color 250ms var(--time-function),
+    background-color 250ms var(--time-function), box-shadow 250ms var(--time-function);
 }
 
 .portfolio-btn-list-item:not(:last-child) {
@@ -623,7 +623,7 @@ img {
 
 .portfolio-item-link {
   display: block;
-  transition: box-shadow 250ms --time-function;
+  transition: box-shadow 250ms var(--time-function);
 }
 
 .portfolio-item-link:hover,

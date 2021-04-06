@@ -23,7 +23,7 @@
   letter-spacing: 0.02em;
   color: var(--main-color);
   padding: 32px 0;
-  transition: color 250ms --time-function;
+  transition: color 250ms var(--time-function);
   position: relative;
 
   &:hover,
@@ -96,7 +96,7 @@
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   padding: 32px 0;
-  transition: color 250ms --time-function;
+  transition: color 250ms var(--time-function);
 
   &:hover,
   &:focus {

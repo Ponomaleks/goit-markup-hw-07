@@ -12,7 +12,8 @@
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   color: var(--icon-color);
-  transition: border-color 250ms --time-function, color 250ms --time-function;
+  transition: border-color 250ms var(--time-function),
+    color 250ms var(--time-function);
 
   &:hover,
   &:focus {

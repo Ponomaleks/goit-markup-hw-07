@@ -15,8 +15,9 @@
   background-color: var(--background-light-color);
   border-radius: 4px;
   padding: 6px 22px;
-  transition: color 250ms --time-function,
-    background-color 250ms --time-function, box-shadow 250ms --time-function;
+  transition: color 250ms var(--time-function),
+    background-color 250ms var(--time-function),
+    box-shadow 250ms var(--time-function);
 
   &:hover,
   &:focus {

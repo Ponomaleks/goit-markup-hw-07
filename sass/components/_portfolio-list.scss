@@ -13,7 +13,7 @@
 
 .portfolio-item-link {
   display: block;
-  transition: box-shadow 250ms --time-function;
+  transition: box-shadow 250ms var(--time-function);
 
   &:hover,
   &:focus {

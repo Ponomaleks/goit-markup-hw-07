@@ -48,6 +48,10 @@
     margin-right: 7px;
   }
 
+  &:hover {
+    cursor: pointer;
+  }
+
   .therm-checkbox:checked + &::before {
     background-image: url('../images/Vector.svg');
     background-repeat: no-repeat;

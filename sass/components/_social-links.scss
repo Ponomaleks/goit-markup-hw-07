@@ -15,8 +15,8 @@
 
 .team__social-link {
   color: var(--icon-color);
-  transition: background-color 250ms --time-function,
-    color 250ms --time-function;
+  transition: background-color 250ms var(--time-function),
+    color 250ms var(--time-function);
 
   &:hover,
   &:focus {
@@ -36,7 +36,7 @@
 
 .footer__social-link {
   background: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms --time-function;
+  transition: background-color 250ms var(--time-function);
 
   &:hover,
   &:focus {
